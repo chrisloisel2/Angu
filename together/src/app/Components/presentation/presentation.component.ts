@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
   templateUrl: './presentation.component.html',
   styleUrl: './presentation.component.css',
 })
-export class PresentationComponent {}
+export class PresentationComponent {
+  name: string = 'Chris';
+  surname: string = 'Loisel';
+}

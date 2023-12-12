@@ -6,7 +6,7 @@ import { PresentationComponent } from '../presentation/presentation.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, PresentationComponent],
+  imports: [CommonModule, RouterOutlet, PresentationComponent], // Class
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

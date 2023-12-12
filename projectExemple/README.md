@@ -15,3 +15,11 @@
 ## Creer le composant dans un dossier specifique
 
 `ng g c nomDuDossier/nomDuComposant`
+
+## passer en mode super utilisateur
+
+`sudo su`
+
+## Creer un dossier
+
+`sudo mkdir nomDuDossier`
