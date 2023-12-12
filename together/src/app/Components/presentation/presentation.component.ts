@@ -10,5 +10,10 @@ import { Component } from '@angular/core';
 })
 export class PresentationComponent {
   name: string = 'Chris';
-  surname: string = 'Loisel';
+  surname: string = 'Benoit';
+  age: number = 40;
+
+  vieillir() {
+    this.age = this.age + 1;
+  }
 }
