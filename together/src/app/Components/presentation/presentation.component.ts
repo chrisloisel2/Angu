@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 // Html = <app-presentation></app-presentation>
 @Component({
@@ -9,8 +9,13 @@ import { Component } from '@angular/core';
   styleUrl: './presentation.component.css',
 })
 export class PresentationComponent {
-  name: string = 'Chris';
+  @Input()
+  name!: string;
+
+  @Input()
   surname: string = 'Benoit';
+
+  @Input()
   age: number = 40;
 
   vieillir() {
