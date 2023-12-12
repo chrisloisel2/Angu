@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { User } from '../../Models/User.model';
 
 // Html = <app-presentation></app-presentation>
 @Component({
@@ -9,16 +10,19 @@ import { Component, Input } from '@angular/core';
   styleUrl: './presentation.component.css',
 })
 export class PresentationComponent {
-  @Input()
-  name!: string;
+  //   @Input()
+  //   name!: string;
+
+  //   @Input()
+  //   surname: string = 'Benoit';
+
+  //   @Input()
+  //   age: number = 40;
 
   @Input()
-  surname: string = 'Benoit';
-
-  @Input()
-  age: number = 40;
+  user!: User;
 
   vieillir() {
-    this.age = this.age + 1;
+    this.user.age = this.user.age + 1;
   }
 }

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { PresentationComponent } from '../presentation/presentation.component';
+import { User } from '../../Models/User.model';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,22 @@ import { PresentationComponent } from '../presentation/presentation.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {}
+export class AppComponent {
+  User1: User = {
+    name: 'Benoit',
+    surname: 'Benoit',
+    age: 40,
+  };
+
+  User2: User = {
+    name: 'CHristopher',
+    surname: 'CHristopher',
+    age: 27,
+  };
+
+  User3: User = {
+    name: 'Lucas',
+    surname: 'Lucas',
+    age: 32,
+  };
+}
