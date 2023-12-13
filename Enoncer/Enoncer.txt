@@ -1,0 +1,27 @@
+Description du TP :
+
+    Configuration de l'Environnement :
+        Mettez en place un nouveau projet Angular en utilisant Angular CLI.
+        Assurez-vous d'avoir toutes les dépendances nécessaires installées.
+
+    Création de Modèles :
+        Créez un modèle Produit qui contient des attributs tels que id, nom, description, prix et image.
+
+    Service de Données :
+        Créez un service Angular qui fournira une liste de produits. Vous pouvez utiliser des données statiques pour ce TP.
+        Le service doit avoir une méthode pour récupérer la liste des produits.
+
+    Composants :
+        Créez un composant liste-produits qui utilisera le service pour afficher les produits.
+        Chaque produit doit être affiché avec tous ses détails dans une mise en page propre et lisible.
+
+    Affichage et Mise en Page :
+        Utilisez les directives Angular et le data binding pour afficher les données.
+        Mettez en œuvre une mise en page responsive à l'aide de CSS ou d'un framework CSS de votre choix.
+
+    Fonctionnalité Supplémentaire (Optionnelle) :
+        Ajoutez une fonctionnalité de recherche ou de filtrage pour faciliter la recherche de produits spécifiques.
+
+    Test et Déploiement :
+        Testez l'application pour vous assurer qu'elle fonctionne correctement.
+        Déployez l'application sur un serveur ou une plateforme de votre choix.
