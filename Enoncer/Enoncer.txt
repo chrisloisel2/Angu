@@ -7,10 +7,6 @@ Description du TP :
     Création de Modèles :
         Créez un modèle Produit qui contient des attributs tels que id, nom, description, prix et image.
 
-    Service de Données :
-        Créez un service Angular qui fournira une liste de produits. Vous pouvez utiliser des données statiques pour ce TP.
-        Le service doit avoir une méthode pour récupérer la liste des produits.
-
     Composants :
         Créez un composant liste-produits qui utilisera le service pour afficher les produits.
         Chaque produit doit être affiché avec tous ses détails dans une mise en page propre et lisible.
@@ -21,6 +17,12 @@ Description du TP :
 
     Fonctionnalité Supplémentaire (Optionnelle) :
         Ajoutez une fonctionnalité de recherche ou de filtrage pour faciliter la recherche de produits spécifiques.
+
+	Service de Données (Optionnel) :
+		Si vous voulez utiliser des données statiques, vous pouvez ignorer cette étape.
+        Créez un service Angular qui fournira une liste de produits. Vous pouvez utiliser des données statiques pour ce TP.
+        Le service doit avoir une méthode pour récupérer la liste des produits.
+
 
     Test et Déploiement :
         Testez l'application pour vous assurer qu'elle fonctionne correctement.
