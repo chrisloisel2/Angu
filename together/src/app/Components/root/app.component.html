@@ -1,7 +1,10 @@
 <p>Bonjour je suis le composant app-root</p>
 <div class="container">
-  <div *ngFor="let user of userList">
-    <app-presentation [user]="user"></app-presentation>
+  <div id="presentationContainer">
+    <app-presentation
+      *ngFor="let user of userList"
+      [user]="user"
+    ></app-presentation>
   </div>
 </div>
 <!-- <div *ngFor="let element of lst">
