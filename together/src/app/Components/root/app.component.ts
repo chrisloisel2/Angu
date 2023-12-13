@@ -12,21 +12,27 @@ import { User } from '../../Models/User.model';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  User1: User = {
-    name: 'Benoit',
-    surname: 'Benoit',
-    age: 4,
-  };
-
-  User2: User = {
-    name: 'CHristopher',
-    surname: 'CHristopher',
-    age: 2,
-  };
-
-  User3: User = {
-    name: 'Lucas',
-    surname: 'Lucas',
-    age: 32,
-  };
+  userList: User[] = [
+    {
+      name: 'Mickael',
+      surname: 'Seffar',
+      age: 4,
+      sexe: true,
+      activity: ['Manger', 'Dormir'],
+    },
+    {
+      name: 'Chris',
+      surname: 'Loisel',
+      age: 2,
+      sexe: true,
+      activity: ['Manger', 'Dormir', 'respirer'],
+    },
+    {
+      name: 'Allan',
+      surname: 'Duminy',
+      age: 32,
+      sexe: false,
+      activity: ['Manger', 'Dormir', 'coder', 'respirer'],
+    },
+  ];
 }

@@ -1,5 +1,10 @@
 #container {
   width: 120px;
-  height: 200px;
+  background-color: rgb(248, 136, 136);
+}
+
+#containerActivity {
+  display: flex;
+  width: 120px;
   background-color: rgb(248, 136, 136);
 }

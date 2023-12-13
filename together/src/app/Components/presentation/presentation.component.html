@@ -1,9 +1,14 @@
 <!-- <div id="container" *ngIf="!(this.user == undefined)"> -->
+<!-- <p *ngIf="this.user.sexe">Vous etes un Homme</p>
+	<p *ngIf="!this.user.sexe">Vous etes une Femme</p>
+	<p *ngIf="this.user.age >= 18">Vous etes majeur</p>
+	<p *ngIf="this.user.age < 18">Vous etes mineur</p> -->
 <div id="container">
-  <p *ngIf="this.user.age >= 18">Vous etes majeur</p>
-  <p *ngIf="this.user.age < 18">Vous etes mineur</p>
   <p>prenom : {{ this.user.surname }}</p>
   <p>nom : {{ this.user.name }}</p>
   <p>age : {{ this.user.age }}</p>
   <button (click)="vieillir()">viellir</button>
+  <div id="container">
+    <p *ngFor="let act of this.user.activity">{{ act }}</p>
+  </div>
 </div>

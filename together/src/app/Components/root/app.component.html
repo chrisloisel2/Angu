@@ -1,4 +1,10 @@
 <p>Bonjour je suis le composant app-root</p>
-<app-presentation [user]="User1"></app-presentation>
-<app-presentation [user]="User2"></app-presentation>
-<app-presentation [user]="User3"></app-presentation>
+<div class="container">
+  <div *ngFor="let user of userList">
+    <app-presentation [user]="user"></app-presentation>
+  </div>
+</div>
+<!-- <div *ngFor="let element of lst">
+  <p>{{ element }}</p>
+   ce sera repeter 10 foix, element = 1, element =2, element =3
+</div> -->
