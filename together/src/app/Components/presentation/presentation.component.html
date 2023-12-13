@@ -1,4 +1,7 @@
+<!-- <div id="container" *ngIf="!(this.user == undefined)"> -->
 <div id="container">
+  <p *ngIf="this.user.age >= 18">Vous etes majeur</p>
+  <p *ngIf="this.user.age < 18">Vous etes mineur</p>
   <p>prenom : {{ this.user.surname }}</p>
   <p>nom : {{ this.user.name }}</p>
   <p>age : {{ this.user.age }}</p>

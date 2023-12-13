@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { User } from '../../Models/User.model';
+import { CommonModule } from '@angular/common';
 
 // Html = <app-presentation></app-presentation>
 @Component({
   selector: 'app-presentation',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './presentation.component.html',
   styleUrl: './presentation.component.css',
 })

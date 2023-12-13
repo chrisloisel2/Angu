@@ -15,13 +15,13 @@ export class AppComponent {
   User1: User = {
     name: 'Benoit',
     surname: 'Benoit',
-    age: 40,
+    age: 4,
   };
 
   User2: User = {
     name: 'CHristopher',
     surname: 'CHristopher',
-    age: 27,
+    age: 2,
   };
 
   User3: User = {
