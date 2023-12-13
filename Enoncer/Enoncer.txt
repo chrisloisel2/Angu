@@ -8,7 +8,7 @@ Description du TP :
         Créez un modèle Produit qui contient des attributs tels que id, nom, description, prix et image.
 
     Composants :
-        Créez un composant liste-produits qui utilisera le service pour afficher les produits.
+        Créez un composant liste-produits qui affichera les produits.
         Chaque produit doit être affiché avec tous ses détails dans une mise en page propre et lisible.
 
     Affichage et Mise en Page :
