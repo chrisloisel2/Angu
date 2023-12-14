@@ -8,11 +8,11 @@ Description du TP :
         Créez un modèle Produit qui contient des attributs tels que id, nom, description, prix et image.
 
     Composants :
-        Créez un composant liste-produits qui utilisera le service pour afficher les produits.
+        Créez un composant liste-produits qui affichera les produits.
         Chaque produit doit être affiché avec tous ses détails dans une mise en page propre et lisible.
 
     Affichage et Mise en Page :
-        Utilisez les directives Angular et le data binding pour afficher les données.
+        Utilisez les directives Angular et le data binding ({{ variable }}) pour afficher les données.
         Mettez en œuvre une mise en page responsive à l'aide de CSS ou d'un framework CSS de votre choix.
 
     Fonctionnalité Supplémentaire (Optionnelle) :
