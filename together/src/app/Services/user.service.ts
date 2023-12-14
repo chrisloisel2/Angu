@@ -29,7 +29,13 @@ export class UserService {
     },
   ];
 
+  listeFiltrer: User[] = this.userList;
+
   constructor() {}
+
+  filtrageUser(age: number) {
+    this.listeFiltrer = this.userList.filter((user) => user.age == age);
+  }
 
   addUser() {
     this.userList.push({
