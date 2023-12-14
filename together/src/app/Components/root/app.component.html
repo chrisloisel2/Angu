@@ -2,9 +2,10 @@
 <div class="container">
   <div id="presentationContainer">
     <app-presentation
-      *ngFor="let user of userList"
+      *ngFor="let user of this.listeUser"
       [user]="user"
     ></app-presentation>
+    <button (click)="addUser()">+</button>
   </div>
 </div>
 <!-- <div *ngFor="let element of lst">

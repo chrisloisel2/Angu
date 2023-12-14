@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { User } from '../../Models/User.model';
 import { CommonModule } from '@angular/common';
+import { PetitDejService } from '../../Services/petit-dej.service';
 
 // Html = <app-presentation></app-presentation>
 @Component({
@@ -19,11 +20,14 @@ export class PresentationComponent {
 
   //   @Input()
   //   age: number = 40;
+  //   constructor(private dej: PetitDejService) {
+  //     this.BoissonduMatin = this.dej.petit_dej.boisson;
+  //   }
+
+  BoissonduMatin: string = '';
 
   @Input()
   user!: User;
 
-  vieillir() {
-    this.user.age = this.user.age + 1;
-  }
+  vieillir() {}
 }
