@@ -1,0 +1,14 @@
+<div class="container">
+  <div id="presentationContainer">
+    <app-presentation
+      *ngFor="let user of this.user.listeFiltrer"
+      [user]="user"
+    ></app-presentation>
+    <button (click)="addUser()">+</button>
+  </div>
+  <app-filtre></app-filtre>
+</div>
+<!-- <div *ngFor="let element of lst">
+  <p>{{ element }}</p>
+   ce sera repeter 10 foix, element = 1, element =2, element =3
+</div> -->
